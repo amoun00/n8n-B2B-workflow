@@ -1,5 +1,7 @@
 # Architecture
 
+The architecture workflow takes into consideration that this is a test scenario not a real one. We use mock data and handle each message synchronousely with limited notifications. No real labeled dataset was used for training.
+
 ## How it works
 
 ```

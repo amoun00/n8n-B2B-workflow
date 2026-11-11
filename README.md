@@ -6,7 +6,7 @@ n8n workflow that receives a customer message by webhook, classifies it and extr
 - `output/records.json`: the output for all 9 test messages (the 5 from the brief plus 4 edge cases I added).
 - `docs/ARCHITECTURE.md`: design, routing, escalation, scaling, phase 2.
 - `docs/PROMPTS.md`: the prompts and the reasoning behind them. The prompt texts are in `prompts/`.
-- Demo video: <LOOM LINK>
+- Demo video: https://youtu.be/xEqxipRzEAA
 
 ## Running it
 

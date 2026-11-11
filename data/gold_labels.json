@@ -1,0 +1,12 @@
+{
+  "_note": "Human-assigned expected labels used by scripts/eval.mjs. These are the answers a senior support lead would give, written BEFORE running the model. 'acceptable_categories' lists defensible alternatives for genuinely ambiguous messages.",
+  "S1": { "category": "Bug Report",         "acceptable_categories": ["Bug Report"],                          "priority": ["High", "Medium"], "destination_queue": "Engineering",               "escalation_flag": false, "must_extract": ["403", "arcvault.io/user/jsmith"] },
+  "S2": { "category": "Feature Request",    "acceptable_categories": ["Feature Request"],                     "priority": ["Low", "Medium"],  "destination_queue": "Product",                   "escalation_flag": false, "must_extract": [] },
+  "S3": { "category": "Billing Issue",      "acceptable_categories": ["Billing Issue"],                       "priority": ["Medium", "High"], "destination_queue": "Billing",                   "escalation_flag": false, "must_extract": ["8821"], "billing_discrepancy_usd": 260 },
+  "S4": { "category": "Technical Question", "acceptable_categories": ["Technical Question"],                  "priority": ["Low", "Medium"],  "destination_queue": "Technical Support",         "escalation_flag": false, "must_extract": ["Okta"] },
+  "S5": { "category": "Incident/Outage",    "acceptable_categories": ["Incident/Outage"],                     "priority": ["High"],           "destination_queue": "Escalation - Human Review", "escalation_flag": true,  "must_extract": [] },
+  "X1": { "category": "Billing Issue",      "acceptable_categories": ["Billing Issue"],                       "priority": ["High", "Medium"], "destination_queue": "Escalation - Human Review", "escalation_flag": true,  "must_extract": ["INV-2207"], "billing_discrepancy_usd": 2400 },
+  "X2": { "category": "Bug Report",         "acceptable_categories": ["Bug Report", "Feature Request"],       "priority": ["Low", "Medium"],  "destination_queue": null,                        "escalation_flag": null,  "must_extract": [] },
+  "X3": { "category": "Incident/Outage",    "acceptable_categories": ["Incident/Outage"],                     "priority": ["High"],           "destination_queue": "Escalation - Human Review", "escalation_flag": true,  "must_extract": [] },
+  "X4": { "category": null,                 "acceptable_categories": null,                                    "priority": null,               "destination_queue": "Escalation - Human Review", "escalation_flag": true,  "must_extract": [] }
+}
